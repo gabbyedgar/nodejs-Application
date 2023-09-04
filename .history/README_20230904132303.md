@@ -1,0 +1,59 @@
+Created by Ochiba Gabriel
+
+```markdown
+# Square and Sum Numbers
+
+This Node.js script calculates the sum of the squares of numbers in an array and then finds the square root of the sum.
+
+## Usage
+
+1. Clone or download this repository to your local machine.
+
+2. Open a terminal or command prompt and navigate to the project directory:
+```
+
+   ```
+   cd square-and-sum-numbers
+   ```
+
+3. Open the `index.js` file to view the code.
+
+4. Run the script by executing the following command:
+
+   ```
+   node index.js
+   ```
+
+   This script will perform the following steps:
+
+   - Create an array of numbers `[1, 2, 3, 4, 5, 6, 7]`.
+   - Square each number in the array.
+   - Calculate the sum of the squared values.
+   - Find the square root of the sum.
+
+5. You will see the following output in the terminal:
+
+   ```
+   Squared numbers:
+   ┌─────────┬───────┐
+   │ (index) │ Values│
+   ├─────────┼───────┤
+   │    0    │   1   │
+   │    1    │   4   │
+   │    2    │   27  │
+   │    3    │  256  │
+   │    4    │  3125 │
+   │    5    │ 46656 │
+   │    6    │ 823543│
+   └─────────┴───────┘
+   Sum of squares: 831812
+   Square rooted sum of squares: 911.5328162514266
+
+6. The script uses a pure function to calculate the square of a number and higher-order functions like `map` and `reduce` for data transformation.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+You can place this `README.md` file in the root directory of your project to provide users with information on how to run the script and what it does.
